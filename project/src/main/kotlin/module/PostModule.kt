@@ -1,4 +1,4 @@
-package di
+package module
 
 import org.koin.core.module.dsl.singleOf
 import org.koin.dsl.bind
