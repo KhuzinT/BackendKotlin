@@ -1,6 +1,7 @@
-package repo.user
+package repo.user.impl.def
 
 import model.User
+import repo.user.UserRepo
 
 class UserRepoImpl : UserRepo {
     private val users: MutableMap<String, User> = mutableMapOf()

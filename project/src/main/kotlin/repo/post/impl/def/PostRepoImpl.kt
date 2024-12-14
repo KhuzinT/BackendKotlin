@@ -1,6 +1,7 @@
-package repo.post
+package repo.post.impl.def
 
 import model.Post
+import repo.post.PostRepo
 
 class PostRepoImpl : PostRepo {
     private val posts: MutableMap<Int, Post> = mutableMapOf()
