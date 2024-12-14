@@ -5,7 +5,7 @@ import org.koin.dsl.bind
 import org.koin.dsl.module
 
 import repo.user.UserRepo
-import repo.user.UserRepoImpl
+import repo.user.impl.postgres.UserRepoImpl
 
 import service.user.UserService
 import service.user.UserServiceImpl
